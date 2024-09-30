@@ -11,6 +11,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
         <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+        <!-- Añadir el favicon -->
+        <link
+            rel="icon"
+            href="multimedia/imagenes/favicon.ico"
+            sizes="16x16"
+            type="image/png"
+        />
     </head>
 
     <body>
@@ -55,29 +62,19 @@
         <section>
             <h3>Nombre</h3>
             <p>Esteban José Jean-Pierre Ocon-Khelfane</p>
-        </section>
 
-        <section>
             <h3>Dorsal</h3>
             <p>31</p>
-        </section>
 
-        <section>
             <h3>Lugar de Nacimiento</h3>
             <p>Évreux, Normandía</p>
-        </section>
 
-        <section>
             <h3>Fecha de Nacimiento</h3>
             <p>17/09/1996</p>
-        </section>
 
-        <section>
             <h3>Lugar de Residencia</h3>
             <p>Ginebra, Suiza</p>
-        </section>
 
-        <section>
             <h3>Equipo</h3>
             <p>Alpine F1 Team</p>
         </section>
@@ -143,7 +140,7 @@
             </ol>
         </section>
 
-        <section>
+        <aside>
             <h4>Conceptos de la f1</h4>
             <dl>
                 <dt>Undercut</dt>
@@ -188,7 +185,7 @@
                     temporalmente.
                 </dd>
             </dl>
-        </section>
+        </aside>
 
         <!-- Ejercicio 6 de guion 1 html -->
         <section>
@@ -336,16 +333,25 @@
                 src="multimedia/imagenes/esteban-ocon-alpine.jpg"
                 alt="Esteban Ocon en Alpine F1"
             />
-            <video
-                src="multimedia/videos/esteban-ocon-video.mp4"
-                controls
-            ></video>
+            <video controls preload="auto">
+                <source
+                    src="multimedia/videos/esteban-ocon-video.mp4"
+                    type="video/mp4"
+                />
+                <source
+                    src="multimedia/videos/esteban-ocon-video.webm"
+                    type="video/webm"
+                />
+            </video>
             <audio controls>
                 <source
                     src="multimedia/audios/esteban-ocon-audio.mp3"
                     type="audio/mpeg"
                 />
-                Your browser does not support the audio element.
+                <source
+                    src="multimedia/audios/esteban-ocon-audio.mp3"
+                    type="audio/mpeg"
+                />
             </audio>
         </section>
     </body>
