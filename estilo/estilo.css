@@ -13,13 +13,9 @@ body {
 }
 
 /* Specificity 0,0,1 */
+/* This selector includes all elements inside the header,
+including the h1 and nav elements */
 header {
-    background-color: #125491;
-    color: #ffffff;
-}
-
-/* Specificity 0,0,2 */
-h1 nav {
     background-color: #125491;
     color: #ffffff;
 }
