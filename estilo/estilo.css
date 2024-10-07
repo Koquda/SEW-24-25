@@ -1,5 +1,10 @@
 /* Alejandro Campa Martínez UO282874 */
 
+/* Contrastes de colores
+    #b1d4e0 - #0c2d48
+    #125491 - #ffffff
+*/
+
 /* Specificity 0,0,1 */
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -9,12 +14,12 @@ body {
 
 /* Specificity 0,0,1 */
 header {
-    background-color: #145da0;
+    background-color: #125491;
     color: #ffffff;
 }
 
-/* Specificity 0,0,3 */
-header h1 nav {
-    background-color: #145da0;
+/* Specificity 0,0,2 */
+h1 nav {
+    background-color: #125491;
     color: #ffffff;
 }
