@@ -18,4 +18,15 @@ including the h1 and nav elements */
 header {
     background-color: #125491;
     color: #ffffff;
+    text-decoration: none;
+}
+
+/* Specificity 0,0,2 */
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body > p:first-of-type {
+    font-size: 0.5em;
 }
