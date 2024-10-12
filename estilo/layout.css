@@ -1,0 +1,10 @@
+/* Alejandro Campa Martínez UO282874 */
+
+/* Specificity 0,0,1 */
+header {
+    /* Color hereda de body */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+}

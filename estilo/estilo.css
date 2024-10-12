@@ -25,6 +25,7 @@ header {
 header a {
     /* Color hereda de body */
     text-decoration: none;
+    color: inherit;
 }
 
 /* Specificity 0,1,2 */
@@ -34,7 +35,8 @@ body > p:first-of-type {
 }
 
 /* Specificity 0,1,1 */
-a:hover {
+a:hover,
+a.active {
     background-color: #c3e0e5;
     color: #000000;
 }
@@ -77,4 +79,14 @@ video {
     width: 100%;
     height: auto;
     border-radius: 1em;
+}
+
+/* Specificity 0, 0, 1 */
+nav {
+    font-size: 1.5em;
+}
+
+/* Specificity 0, 0, 2 */
+nav > a {
+    padding: 1em;
 }
