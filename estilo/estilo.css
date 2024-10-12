@@ -70,3 +70,11 @@ dd {
     color: #555;
     font-style: italic;
 }
+
+/* Specificity 0, 0, 1 */
+img,
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+}
