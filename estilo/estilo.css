@@ -16,18 +16,20 @@ body {
 /* This selector includes all elements inside the header,
 including the h1 and nav elements */
 header {
+    /* Color hereda de body */
     background-color: #125491;
     color: #ffffff;
 }
 
 /* Specificity 0,0,2 */
 header a {
+    /* Color hereda de body */
     text-decoration: none;
-    color: inherit;
 }
 
 /* Specificity 0,1,2 */
 body > p:first-of-type {
+    /* Color hereda de body */
     font-size: 0.5em;
 }
 
@@ -47,6 +49,7 @@ a:active {
 /* Specificity 0, 0, 1 */
 ul,
 ol {
+    /* Color hereda de body */
     font-size: 0.8em;
     list-style-type: circle;
     list-style-position: inside;
@@ -56,6 +59,7 @@ ol {
 
 /* Specificity 0, 0, 1 */
 dt {
+    /* Color hereda de body */
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1.2em;
