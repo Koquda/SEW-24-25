@@ -45,12 +45,6 @@ a.active {
     color: black;
 }
 
-/* Specificity 0,1,1 */
-a:active {
-    /* Background-color hereda de body */
-    color: #000000;
-}
-
 /* List styling */
 
 /* Specificity 0, 0, 1 */
