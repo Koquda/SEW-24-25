@@ -23,14 +23,14 @@ header {
 
 /* Specificity 0,0,2 */
 header a {
-    /* Color hereda de body */
+    /* Color y background-color hereda de body */
     text-decoration: none;
     color: inherit;
 }
 
 /* Specificity 0,1,2 */
 body > p:first-of-type {
-    /* Color hereda de body */
+    /* Color y background-color hereda de body */
     font-size: 0.5em;
 }
 
@@ -43,6 +43,7 @@ a.active {
 
 /* Specificity 0,1,1 */
 a:active {
+    /* Background-color hereda de body */
     color: #000000;
 }
 
@@ -51,7 +52,7 @@ a:active {
 /* Specificity 0, 0, 1 */
 ul,
 ol {
-    /* Color hereda de body */
+    /* Color y background-color hereda de body */
     font-size: 0.8em;
     list-style-type: circle;
     list-style-position: inside;
@@ -61,7 +62,7 @@ ol {
 
 /* Specificity 0, 0, 1 */
 dt {
-    /* Color hereda de body */
+    /* Color y background-color hereda de body */
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1.2em;
@@ -69,6 +70,7 @@ dt {
 
 /* Specificity 0, 0, 1 */
 dd {
+    /* Background-color hereda de body */
     color: #555;
     font-style: italic;
 }
@@ -83,10 +85,46 @@ video {
 
 /* Specificity 0, 0, 1 */
 nav {
+    /* Color y background-color hereda de body */
     font-size: 1.5em;
 }
 
 /* Specificity 0, 0, 2 */
 nav > a {
+    /* Color y background-color hereda de body */
     padding: 1em;
+}
+
+/* Specificity 0, 0, 2 */
+table {
+    /* Color hereda de body*/
+    background-color: #125491;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+/* Specificity 0, 0, 2 */
+table th {
+    /* Color hereda de body*/
+    background-color: #b1d4e0;
+    border-radius: 0.75em;
+    padding: 0.8em;
+}
+
+/* Specificity 0, 0, 2 */
+table td {
+    /* Color hereda de body*/
+    background-color: #969696;
+    border-radius: 0.75em;
+    border-width: 0.15em;
+    border-style: solid;
+    border-color: black;
+    padding: 0.4em;
+}
+
+@media only screen and (max-width: 799px) {
+    /* Specificity 0, 1, 2 */
+    body > p:first-of-type {
+        display: none;
+    }
 }
