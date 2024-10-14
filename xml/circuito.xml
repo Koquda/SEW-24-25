@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+<circuito
+    nombre="Red Bull Ring"
+    fecha="30-06-2024"
+    hora="15:00"
+    vueltas="71"
+    localidad="Knittelfeld"
+    pais="Austria"
+>
+    <longitud medida="m">4318</longitud>
+    <anchuraMedia medida="m">12.5</anchuraMedia>
+    <referencias>
+        <referencia></referencia>
+        <referencia></referencia>
+        <referencia></referencia>
+    </referencias>
+    <fotos>
+        <foto>chocon.jpg</foto>
+        <foto>esteban-ocon-alpine.jpg</foto>
+    </fotos>
+    <videos>
+        <video>esteban-ocon-video.mp4</video>
+    </videos>
+    <coordenadas
+        latitud="todo"
+        longitud="todo"
+        altitud="todo"
+    ></coordenadas>
+    <tramos>
+        <tramo
+            sector="1"
+        >
+            <longitud medida="km">todo</longitud>
+            <coordenadas
+                latitud="todo"
+                longitud="todo"
+                altitud="todo"
+            ></coordenadas>
+        </tramo>
+    </tramos>
+</circuito>

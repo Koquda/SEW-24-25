@@ -1,0 +1,54 @@
+<!ELEMENT circuito 
+    (
+        longitud, 
+        anchuraMedia,
+        referencias,
+        fotos,
+        videos,
+        coordenadas,
+        tramos
+    )
+>
+<!ATTLIST circuito 
+    nombre CDATA #REQUIRED
+    fecha CDATA #REQUIRED
+    hora NMTOKEN #REQUIRED
+    vueltas NMTOKEN #REQUIRED
+    localidad CDATA #REQUIRED
+    pais CDATA #REQUIRED
+>
+
+<!-- Elementos de medida -->
+<!ELEMENT longitud (#PCDATA)>
+<!ATTLIST longitud medida CDATA #REQUIRED>
+<!ELEMENT anchuraMedia (#PCDATA)>
+<!ATTLIST anchuraMedia medida CDATA #REQUIRED>
+
+<!-- Referencias TODO: revisar elemento referencia -->
+<!ELEMENT referencias (referencia, referencia, referencia, referencia*)>
+<!ELEMENT referencia (#PCDATA)>
+
+<!-- Lista de fotos de 1 a 5 TODO: revisar elemento foto-->
+<!ELEMENT fotos (foto, foto?, foto?, foto?, foto?)>
+<!ELEMENT foto (#PCDATA)>
+<!-- Lista de videos de 0 a 3 TODO: revisar elemento video-->
+<!ELEMENT videos (video?, video?, video?)>
+<!ELEMENT video (#PCDATA)>
+
+<!-- Coordenadas -->
+<!ELEMENT coordenadas (#PCDATA)>
+<!ATTLIST coordenadas
+    longitud NMTOKEN #REQUIRED
+    latitud NMTOKEN #REQUIRED
+    altitud NMTOKEN #REQUIRED
+>
+
+<!-- Tramos -->
+<!ELEMENT tramos (tramo+)>
+<!ELEMENT tramo (longitud, coordenadas)>
+<!ATTLIST tramo sector NMTOKEN #REQUIRED>
+
+<!-- 
+    Cueva le dijo a Gonzalo que ni se le ocurriera tener un solo objeto coordenadas
+    y tener coordendas_centro_pista y coordenadas_tramo
+-->
