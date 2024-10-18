@@ -16,11 +16,12 @@
         <referencia></referencia>
     </referencias>
     <fotos>
-        <foto>chocon.jpg</foto>
-        <foto>esteban-ocon-alpine.jpg</foto>
+        <foto>circuito1.jpg</foto>
+        <foto>circuito2.jpg</foto>
+        <foto>circuito3.jpg</foto>
     </fotos>
     <videos>
-        <video>esteban-ocon-video.mp4</video>
+        <video></video>
     </videos>
     <coordenadas
         latitud="todo"
@@ -28,9 +29,7 @@
         altitud="todo"
     ></coordenadas>
     <tramos>
-        <tramo
-            sector="1"
-        >
+        <tramo sector="1">
             <longitud medida="km">todo</longitud>
             <coordenadas
                 latitud="todo"

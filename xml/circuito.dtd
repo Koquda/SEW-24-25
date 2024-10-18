@@ -47,8 +47,3 @@
 <!ELEMENT tramos (tramo+)>
 <!ELEMENT tramo (longitud, coordenadas)>
 <!ATTLIST tramo sector NMTOKEN #REQUIRED>
-
-<!-- 
-    Cueva le dijo a Gonzalo que ni se le ocurriera tener un solo objeto coordenadas
-    y tener coordendas_centro_pista y coordenadas_tramo
--->
