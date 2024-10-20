@@ -44,6 +44,6 @@
 >
 
 <!-- Tramos -->
-<!ELEMENT tramos (tramo+)>
-<!ELEMENT tramo (longitud, coordenadas)>
-<!ATTLIST tramo sector NMTOKEN #REQUIRED>
+<!ELEMENT tramos (punto+)>
+<!ELEMENT punto (longitud, coordenadas, sector)>
+<!ELEMENT sector (#PCDATA)>

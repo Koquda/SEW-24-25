@@ -11,9 +11,9 @@
     <longitud medida="m">4318</longitud>
     <anchuraMedia medida="m">12.5</anchuraMedia>
     <referencias>
-        <referencia></referencia>
-        <referencia></referencia>
-        <referencia></referencia>
+        <referencia>https://www.formula1.com/en/information/austria-red-bull-ring-spielberg.1s7EC2bGta7o1thZkVPbbq</referencia>
+        <referencia>https://www.boxrepsol.com/es/motogp/10-cosas-red-bull-ring/#:~:text=Concretamente%2C%20est%C3%A1%20677%20metros%20por,circuito%20es%20de%2065%20metros.</referencia>
+        <referencia>https://github.com/bacinger/f1-circuits/blob/master/circuits/at-1969.geojson?short_path=7f9a04b</referencia>
     </referencias>
     <fotos>
         <foto>circuito1.jpg</foto>
@@ -21,21 +21,763 @@
         <foto>circuito3.jpg</foto>
     </fotos>
     <videos>
-        <video></video>
+        <video>circuitoVideo.mp4</video>
     </videos>
     <coordenadas
-        latitud="todo"
-        longitud="todo"
-        altitud="todo"
+        latitud="14.764861"
+        longitud="47.219963"
+        altitud="677"
     ></coordenadas>
     <tramos>
-        <tramo sector="1">
-            <longitud medida="km">todo</longitud>
+        <punto>
+            <longitud medida="m">0.00</longitud>
             <coordenadas
-                latitud="todo"
-                longitud="todo"
-                altitud="todo"
+                latitud="14.765119"
+                longitud="47.220023"
+                altitud="677"
             ></coordenadas>
-        </tramo>
+            <sector>1</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">89.24</longitud>
+            <coordenadas
+                latitud="14.763977"
+                longitud="47.219817"
+                altitud="677"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">221.43</longitud>
+            <coordenadas
+                latitud="14.761148"
+                longitud="47.219294"
+                altitud="677"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">14.77</longitud>
+            <coordenadas
+                latitud="14.760953"
+                longitud="47.219284"
+                altitud="677"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">13.25</longitud>
+            <coordenadas
+                latitud="14.760823"
+                longitud="47.219364"
+                altitud="677"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">36.04</longitud>
+            <coordenadas
+                latitud="14.760604"
+                longitud="47.219652"
+                altitud="677"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">87.98</longitud>
+            <coordenadas
+                latitud="14.759911"
+                longitud="47.220288"
+                altitud="677"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">98.70</longitud>
+            <coordenadas
+                latitud="14.759159"
+                longitud="47.221014"
+                altitud="677"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">84.10</longitud>
+            <coordenadas
+                latitud="14.758568"
+                longitud="47.221655"
+                altitud="677"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">81.21</longitud>
+            <coordenadas
+                latitud="14.758029"
+                longitud="47.222287"
+                altitud="677"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">159.77</longitud>
+            <coordenadas
+                latitud="14.757147"
+                longitud="47.223593"
+                altitud="677"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">42.83</longitud>
+            <coordenadas
+                latitud="14.756904"
+                longitud="47.223941"
+                altitud="677"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">53.59</longitud>
+            <coordenadas
+                latitud="14.756531"
+                longitud="47.224351"
+                altitud="677"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">68.50</longitud>
+            <coordenadas
+                latitud="14.755957"
+                longitud="47.224828"
+                altitud="677"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">101.99</longitud>
+            <coordenadas
+                latitud="14.755004"
+                longitud="47.225478"
+                altitud="677"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">94.19</longitud>
+            <coordenadas
+                latitud="14.754122"
+                longitud="47.226077"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">9.75</longitud>
+            <coordenadas
+                latitud="14.754069"
+                longitud="47.226157"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">9.46</longitud>
+            <coordenadas
+                latitud="14.754075"
+                longitud="47.226242"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">8.94</longitud>
+            <coordenadas
+                latitud="14.754176"
+                longitud="47.226284"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">17.72</longitud>
+            <coordenadas
+                latitud="14.754407"
+                longitud="47.226312"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">54.89</longitud>
+            <coordenadas
+                latitud="14.755129"
+                longitud="47.226369"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">54.56</longitud>
+            <coordenadas
+                latitud="14.755851"
+                longitud="47.226388"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">56.34</longitud>
+            <coordenadas
+                latitud="14.756597"
+                longitud="47.226383"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">53.87</longitud>
+            <coordenadas
+                latitud="14.757307"
+                longitud="47.226336"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">62.95</longitud>
+            <coordenadas
+                latitud="14.758130"
+                longitud="47.226246"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">193.43</longitud>
+            <coordenadas
+                latitud="14.760645"
+                longitud="47.225916"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">87.44</longitud>
+            <coordenadas
+                latitud="14.761793"
+                longitud="47.225813"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">187.44</longitud>
+            <coordenadas
+                latitud="14.764273"
+                longitud="47.225742"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">16.12</longitud>
+            <coordenadas
+                latitud="14.764475"
+                longitud="47.225695"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">14.03</longitud>
+            <coordenadas
+                latitud="14.764599"
+                longitud="47.225601"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">12.10</longitud>
+            <coordenadas
+                latitud="14.764646"
+                longitud="47.225497"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">12.15</longitud>
+            <coordenadas
+                latitud="14.764634"
+                longitud="47.225388"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">12.46</longitud>
+            <coordenadas
+                latitud="14.764569"
+                longitud="47.225285"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">32.69</longitud>
+            <coordenadas
+                latitud="14.764321"
+                longitud="47.225044"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">23.14</longitud>
+            <coordenadas
+                latitud="14.764125"
+                longitud="47.224884"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">36.41</longitud>
+            <coordenadas
+                latitud="14.763764"
+                longitud="47.224667"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">34.03</longitud>
+            <coordenadas
+                latitud="14.763368"
+                longitud="47.224521"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">38.19</longitud>
+            <coordenadas
+                latitud="14.762888"
+                longitud="47.224413"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">39.85</longitud>
+            <coordenadas
+                latitud="14.762367"
+                longitud="47.224356"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">41.17</longitud>
+            <coordenadas
+                latitud="14.761823"
+                longitud="47.224380"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">161.62</longitud>
+            <coordenadas
+                latitud="14.759710"
+                longitud="47.224611"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">21.61</longitud>
+            <coordenadas
+                latitud="14.759426"
+                longitud="47.224587"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">18.52</longitud>
+            <coordenadas
+                latitud="14.759195"
+                longitud="47.224531"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">18.49</longitud>
+            <coordenadas
+                latitud="14.758994"
+                longitud="47.224436"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">19.50</longitud>
+            <coordenadas
+                latitud="14.758816"
+                longitud="47.224309"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">18.80</longitud>
+            <coordenadas
+                latitud="14.758704"
+                longitud="47.224158"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">18.90</longitud>
+            <coordenadas
+                latitud="14.758644"
+                longitud="47.223993"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">16.81</longitud>
+            <coordenadas
+                latitud="14.758633"
+                longitud="47.223842"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">18.54</longitud>
+            <coordenadas
+                latitud="14.758668"
+                longitud="47.223677"
+                altitud="677"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">14.43</longitud>
+            <coordenadas
+                latitud="14.758733"
+                longitud="47.223555"
+                altitud="677"
+            ></coordenadas>
+            <sector>0</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">19.06</longitud>
+            <coordenadas
+                latitud="14.761332"
+                longitud="47.222263"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">24.24</longitud>
+            <coordenadas
+                latitud="14.761533"
+                longitud="47.222433"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">23.25</longitud>
+            <coordenadas
+                latitud="14.761722"
+                longitud="47.222598"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">21.88</longitud>
+            <coordenadas
+                latitud="14.761924"
+                longitud="47.222739"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">22.18</longitud>
+            <coordenadas
+                latitud="14.762166"
+                longitud="47.222852"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">24.91</longitud>
+            <coordenadas
+                latitud="14.762450"
+                longitud="47.222966"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">31.94</longitud>
+            <coordenadas
+                latitud="14.762847"
+                longitud="47.223065"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">31.99</longitud>
+            <coordenadas
+                latitud="14.763261"
+                longitud="47.223126"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">247.68</longitud>
+            <coordenadas
+                latitud="14.766540"
+                longitud="47.223173"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">190.51</longitud>
+            <coordenadas
+                latitud="14.769062"
+                longitud="47.223215"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">20.09</longitud>
+            <coordenadas
+                latitud="14.769328"
+                longitud="47.223211"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">20.81</longitud>
+            <coordenadas
+                latitud="14.769588"
+                longitud="47.223149"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">20.13</longitud>
+            <coordenadas
+                latitud="14.769802"
+                longitud="47.223041"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">20.74</longitud>
+            <coordenadas
+                latitud="14.769973"
+                longitud="47.222895"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">23.60</longitud>
+            <coordenadas
+                latitud="14.770103"
+                longitud="47.222702"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">136.75</longitud>
+            <coordenadas
+                latitud="14.770618"
+                longitud="47.221523"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">12.22</longitud>
+            <coordenadas
+                latitud="14.770648"
+                longitud="47.221415"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">9.18</longitud>
+            <coordenadas
+                latitud="14.770618"
+                longitud="47.221335"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">8.21</longitud>
+            <coordenadas
+                latitud="14.770559"
+                longitud="47.221273"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">19.36</longitud>
+            <coordenadas
+                latitud="14.770358"
+                longitud="47.221165"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">23.40</longitud>
+            <coordenadas
+                latitud="14.770092"
+                longitud="47.221057"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">29.10</longitud>
+            <coordenadas
+                latitud="14.769748"
+                longitud="47.220939"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">32.02</longitud>
+            <coordenadas
+                latitud="14.769358"
+                longitud="47.220826"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">36.76</longitud>
+            <coordenadas
+                latitud="14.768896"
+                longitud="47.220722"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        
+        <punto>
+            <longitud medida="m">295.64</longitud>
+            <coordenadas
+                latitud="14.765119"
+                longitud="47.220023"
+                altitud="677"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
     </tramos>
+
 </circuito>
