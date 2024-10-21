@@ -24,14 +24,14 @@
 <!ELEMENT anchuraMedia (#PCDATA)>
 <!ATTLIST anchuraMedia medida CDATA #REQUIRED>
 
-<!-- Referencias TODO: revisar elemento referencia -->
+<!-- Referencias -->
 <!ELEMENT referencias (referencia)+>
 <!ELEMENT referencia (#PCDATA)>
 
-<!-- Lista de fotos de 1 a 5 TODO: revisar elemento foto-->
+<!-- Lista de fotos de 1 a 5 -->
 <!ELEMENT fotos (foto)+>
 <!ELEMENT foto (#PCDATA)>
-<!-- Lista de videos de 0 a 3 TODO: revisar elemento video-->
+<!-- Lista de videos de 0 a 3 -->
 <!ELEMENT videos (video)*>
 <!ELEMENT video (#PCDATA)>
 

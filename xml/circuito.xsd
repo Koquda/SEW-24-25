@@ -1,5 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns="http://tempuri.org/circuito" elementFormDefault="qualified" targetNamespace="http://tempuri.org/circuito" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/circuito" elementFormDefault="qualified"
+	targetNamespace="http://tempuri.org/circuito" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<xs:element name="circuito">
 		<xs:complexType>
 			<xs:sequence>
@@ -12,34 +13,44 @@
 				<xs:element ref="tramos" />
 			</xs:sequence>
 			<xs:attribute name="nombre" type="xs:string" use="required" />
-			<xs:attribute name="fecha" type="xs:string" use="required" />
-			<xs:attribute name="hora" type="xs:NMTOKEN" use="required" />
-			<xs:attribute name="vueltas" type="xs:NMTOKEN" use="required" />
+			<xs:attribute name="fecha" type="xs:date" use="required" />
+			<xs:attribute name="hora" type="xs:time" use="required" />
+			<xs:attribute name="vueltas" type="xs:integer" use="required" />
 			<xs:attribute name="localidad" type="xs:string" use="required" />
 			<xs:attribute name="pais" type="xs:string" use="required" />
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="longitud">
 		<xs:complexType>
-			<xs:simpleContent>
-				<xs:extension base="xs:string">
-					<xs:attribute name="medida" type="xs:string" use="required" />
-				</xs:extension>
-			</xs:simpleContent>
+			<xs:sequence>
+				<xs:element name="decimalPositivo">
+					<xs:simpleType>
+						<xs:restriction base="xs:decimal">
+							<xs:minInclusive value="0"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="medida" type="xs:string" use="required" />
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="anchuraMedia">
 		<xs:complexType>
-			<xs:simpleContent>
-				<xs:extension base="xs:string">
-					<xs:attribute name="medida" type="xs:string" use="required" />
-				</xs:extension>
-			</xs:simpleContent>
+			<xs:sequence>
+				<xs:element name="decimalPositivo">
+					<xs:simpleType>
+						<xs:restriction base="xs:decimal">
+							<xs:minInclusive value="0"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="medida" type="xs:string" use="required" />
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="referencias">
 		<xs:complexType>
-			<xs:sequence minOccurs="1" maxOccurs="unbounded">
+			<xs:sequence minOccurs="3" maxOccurs="unbounded">
 				<xs:element ref="referencia" />
 			</xs:sequence>
 		</xs:complexType>
@@ -47,7 +58,7 @@
 	<xs:element name="referencia" type="xs:string" />
 	<xs:element name="fotos">
 		<xs:complexType>
-			<xs:sequence minOccurs="1" maxOccurs="unbounded">
+			<xs:sequence minOccurs="1" maxOccurs="5">
 				<xs:element ref="foto" />
 			</xs:sequence>
 		</xs:complexType>
@@ -55,7 +66,7 @@
 	<xs:element name="foto" type="xs:string" />
 	<xs:element name="videos">
 		<xs:complexType>
-			<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:sequence minOccurs="0" maxOccurs="3">
 				<xs:element ref="video" />
 			</xs:sequence>
 		</xs:complexType>
@@ -65,9 +76,9 @@
 		<xs:complexType>
 			<xs:simpleContent>
 				<xs:extension base="xs:string">
-					<xs:attribute name="longitud" type="xs:NMTOKEN" use="required" />
-					<xs:attribute name="latitud" type="xs:NMTOKEN" use="required" />
-					<xs:attribute name="altitud" type="xs:NMTOKEN" use="required" />
+					<xs:attribute name="longitud" type="xs:decimal" use="required" />
+					<xs:attribute name="latitud" type="xs:decimal" use="required" />
+					<xs:attribute name="altitud" type="xs:decimal" use="required" />
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
@@ -88,5 +99,5 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="sector" type="xs:string" />
+	<xs:element name="sector" type="xs:integer" />
 </xs:schema>
