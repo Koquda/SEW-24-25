@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<circuito 
+    xsi:schemaLocation="http://www.uniovi.es circuito.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.uniovi.es"
+    nombre="Red Bull Ring"
+    fecha="2024-06-30"
+    hora="15:00:00"
+    vueltas="71"
+    localidad="Knittelfeld"
+    pais="Austria"
+>
+    <longitud medida="m">
+        <decimalPositivo>4318</decimalPositivo>
+    </longitud>
+    <anchuraMedia medida="m">
+        <decimalPositivo>12.5</decimalPositivo>
+    </anchuraMedia>
+    <referencias>
+        <referencia>https://www.formula1.com/en/information/austria-red-bull-ring-spielberg.1s7EC2bGta7o1thZkVPbbq</referencia>
+        <referencia>https://www.boxrepsol.com/es/motogp/10-cosas-red-bull-ring/#:~:text=Concretamente%2C%20est%C3%A1%20677%20metros%20por,circuito%20es%20de%2065%20metros.</referencia>
+        <referencia>https://github.com/bacinger/f1-circuits/blob/master/circuits/at-1969.geojson?short_path=7f9a04b</referencia>
+    </referencias>
+    <fotos>
+        <foto>circuito1.jpg</foto>
+        <foto>circuito2.jpg</foto>
+        <foto>circuito3.jpg</foto>
+    </fotos>
+    <videos>
+        <video>circuitoVideo.mp4</video>
+    </videos>
+    <coordenadas
+        latitud="14.764861"
+        longitud="47.219963"
+        altitud="677"
+    ></coordenadas>
+    <tramos>
+
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>73.76</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76487472745423"
+                latitud="47.21994278464728"
+                altitud="678.6633948688855"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>53.59</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76393065640733"
+                latitud="47.21977270075171"
+                altitud="678.5582411576454"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>46.56</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76323401998832"
+                latitud="47.21968100602513"
+                altitud="680.0705773160921"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>54.34</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76264662210966"
+                latitud="47.21955378435345"
+                altitud="682.2177632204254"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>35.77</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76194898792896"
+                latitud="47.21943407779996"
+                altitud="685.9427170042603"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>29.14</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76149075422736"
+                latitud="47.21935262205427"
+                altitud="688.6411283371654"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>15.74</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76112103748106"
+                latitud="47.21927764720042"
+                altitud="691.9768035417418"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>22.97</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76091390220761"
+                latitud="47.21929301358031"
+                altitud="693.0656814487281"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>32.36</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76074969420293"
+                latitud="47.21946689676203"
+                altitud="694.6531603278697"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>34.09</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76054403694253"
+                latitud="47.21972220995164"
+                altitud="695.7595604136785"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>50.79</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76027119086558"
+                latitud="47.21996646075331"
+                altitud="696.3768786384046"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>48.85</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75987917318552"
+                latitud="47.2203375522831"
+                altitud="697.6585611796343"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>55.04</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.7594959620722"
+                latitud="47.22069147315351"
+                altitud="696.2312646107606"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>50.10</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75907041682662"
+                latitud="47.2210933565151"
+                altitud="697.5500052602157"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>59.55</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75870760697256"
+                latitud="47.22147060574129"
+                altitud="697.7148965841692"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>56.27</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75831962449059"
+                latitud="47.22193680722316"
+                altitud="699.3966313386615"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>90.03</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75795806947927"
+                latitud="47.22237930068696"
+                altitud="699.4728532634972"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>78.67</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75746188871869"
+                latitud="47.22311550596871"
+                altitud="699.531294585785"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>77.25</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.7570252082737"
+                latitud="47.22375787155819"
+                altitud="702.9891295374679"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>45.45</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75650821234877"
+                latitud="47.22435731212169"
+                altitud="708.2363432792893"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>53.96</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75614894328383"
+                latitud="47.22468522216391"
+                altitud="711.7770870629811"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>62.27</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75563384363756"
+                latitud="47.22502160828961"
+                altitud="717.4567489233203"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>0</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75504790055818"
+                latitud="47.22541565798387"
+                altitud="725.3589382177149"
+            ></coordenadas>
+            <sector>1</sector>
+        </punto>
+
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>31.59</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75456565324578"
+                latitud="47.22574906392531"
+                altitud="733.4439262505227"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>24.01</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75427784431771"
+                latitud="47.22595521374969"
+                altitud="738.4306001919368"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>10.67</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75408337267046"
+                latitud="47.22612600628795"
+                altitud="741.8027827170433"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>14.06</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.7540708351233"
+                latitud="47.22622161832582"
+                altitud="743.8181838993993"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>35.49</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75423741958155"
+                latitud="47.22627811891304"
+                altitud="745.0494870764895"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>52.78</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75470308274696"
+                latitud="47.22632152842017"
+                altitud="745.2547163936144"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>72.10</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75539772884678"
+                latitud="47.22637442734772"
+                altitud="745.3419320505252"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>101.65</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.7563522984994"
+                latitud="47.22638819673666"
+                altitud="742.9892592187645"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>89.86</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75768871552438"
+                latitud="47.22627862381289"
+                altitud="738.0689135502183"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>162.99</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75885951054442"
+                latitud="47.2261338492013"
+                altitud="734.1347014740337"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>126.62</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76098307397907"
+                latitud="47.22587151879647"
+                altitud="727.4899163779316"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>112.05</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.762653387466"
+                latitud="47.22577141603004"
+                altitud="721.4995651442873"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>22.18</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76413568926061"
+                latitud="47.22572561704515"
+                altitud="716.3342254163421"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>15.61</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76442527277206"
+                latitud="47.22569248241701"
+                altitud="714.6817717291876"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>14.90</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76459294805571"
+                latitud="47.22561040751195"
+                altitud="713.7873910478871"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>15.26</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76465236210088"
+                latitud="47.22548258160823"
+                altitud="713.1755590446766"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>28.25</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76462328654671"
+                latitud="47.22534676028909"
+                altitud="712.6946402848587"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>51.70</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.7644124430632"
+                latitud="47.22513690405667"
+                altitud="711.1425968372531"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>51.54</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76396505614977"
+                latitud="47.22478501604704"
+                altitud="708.6721092080622"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>44.56</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76339098127197"
+                latitud="47.22453436324"
+                altitud="706.7095531616143"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>70.02</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76284123047163"
+                latitud="47.22438882738349"
+                altitud="706.5003104247386"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>61.20</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76191489236804"
+                latitud="47.22436173223137"
+                altitud="708.0452548271652"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>57.72</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76111452939942"
+                latitud="47.22444842373023"
+                altitud="708.5132398499486"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>48.51</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76036237133257"
+                latitud="47.22454098549296"
+                altitud="709.9264918192304"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>22.97</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75972440440675"
+                latitud="47.22459224656793"
+                altitud="710.6868959180813"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>32.27</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75942264056505"
+                latitud="47.22456653636208"
+                altitud="710.2748377239116"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>26.44</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.7590308529501"
+                latitud="47.22445070398735"
+                altitud="710.2989112498097"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>25.22</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75878983144029"
+                latitud="47.22427820150549"
+                altitud="709.8080480224388"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>27.96</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75864520284297"
+                latitud="47.22407375382048"
+                altitud="708.2320058979819"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>34.56</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75860450714138"
+                latitud="47.22382386649108"
+                altitud="705.693677813176"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>39.89</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75874574795277"
+                latitud="47.22352826434447"
+                altitud="701.2452528677959"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>100.51</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75900741932934"
+                latitud="47.22321667089632"
+                altitud="698.6154475359745"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>0</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75965612183905"
+                latitud="47.22242744615026"
+                altitud="692.6133866067981"
+            ></coordenadas>
+            <sector>2</sector>
+        </punto>
+
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>29.48</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.75986323619733"
+                latitud="47.22224703261714"
+                altitud="691.0867557856061"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>26.84</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76020207757021"
+                latitud="47.22211541706096"
+                altitud="690.3613561909253"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>50.98</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.7605453107355"
+                latitud="47.22205275274047"
+                altitud="689.6932814101133"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>43.84</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76119316567486"
+                latitud="47.22218162367544"
+                altitud="689.5708465407716"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>44.17</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76154943944962"
+                latitud="47.22249287367362"
+                altitud="690.5059995207898"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>45.03</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76197777785376"
+                latitud="47.22276342104102"
+                altitud="692.9811972006037"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>42.52</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76248281836585"
+                latitud="47.22297877128173"
+                altitud="693.2829599190002"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>84.53</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76301631896024"
+                latitud="47.22310113085329"
+                altitud="692.8636532135603"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>146.77</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76413485494493"
+                latitud="47.22313068664047"
+                altitud="694.74835740841"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>184.15</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76607806019684"
+                latitud="47.22315351756058"
+                altitud="700.5028281748615"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>62.04</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.7685153954276"
+                latitud="47.22320587580847"
+                altitud="700.5118616017726"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>26.78</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76933656015918"
+                latitud="47.22319053507445"
+                altitud="698.0541905993631"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>25.42</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76965952058955"
+                latitud="47.22309101947234"
+                altitud="696.4395599561893"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>26.85</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76991445272647"
+                latitud="47.2229416861062"
+                altitud="696.2980047542659"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>40.56</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.77008354151662"
+                latitud="47.22272926986823"
+                altitud="694.9025360414125"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>38.00</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.77021573209818"
+                latitud="47.22237575378536"
+                altitud="693.1144297657039"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>66.82</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.77034663375616"
+                latitud="47.22204574249728"
+                altitud="689.8064582912571"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>13.94</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.77062372019953"
+                latitud="47.22147500386853"
+                altitud="685.2860222422443"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>22.63</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.7705969814379"
+                latitud="47.22135099799549"
+                altitud="684.1834478735635"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>42.33</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.77039407722821"
+                latitud="47.22120121179653"
+                altitud="681.7924188140114"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>72.72</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76993175706791"
+                latitud="47.22098598646065"
+                altitud="681.2154669122057"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>178.00</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76904225960936"
+                latitud="47.22073560020061"
+                altitud="679.9884045440353"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>148.32</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.76676709947725"
+                latitud="47.22031738511957"
+                altitud="677.8551986775706"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+        <punto>
+            <longitud medida='m'>
+                <decimalPositivo>0</decimalPositivo>
+            </longitud>
+            <coordenadas
+                longitud="14.7648758290223"
+                latitud="47.21995773600347"
+                altitud="678.4821055405084"
+            ></coordenadas>
+            <sector>3</sector>
+        </punto>
+
+    </tramos>
+
+</circuito>
