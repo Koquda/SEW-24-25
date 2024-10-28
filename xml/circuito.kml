@@ -1,0 +1,651 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><Placemark><name>
+Red Bull Ring
+</name><description>
+Date: 2024-06-30
+Location: Knittelfeld, Austria
+</description><Point><coordinates>
+47.219963,14.764861,677
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.76487472745423,47.21994278464728,678.6633948688855
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.76393065640733,47.21977270075171,678.5582411576454
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.76323401998832,47.21968100602513,680.0705773160921
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.76264662210966,47.21955378435345,682.2177632204254
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.76194898792896,47.21943407779996,685.9427170042603
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.76149075422736,47.21935262205427,688.6411283371654
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.76112103748106,47.21927764720042,691.9768035417418
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.76091390220761,47.21929301358031,693.0656814487281
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {} 
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.76074969420293,47.21946689676203,694.6531603278697
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}  
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.76054403694253,47.21972220995164,695.7595604136785
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}   
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.76027119086558,47.21996646075331,696.3768786384046
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}    
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.75987917318552,47.2203375522831,697.6585611796343
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}     
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.7594959620722,47.22069147315351,696.2312646107606
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}      
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.75907041682662,47.2210933565151,697.5500052602157
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}       
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.75870760697256,47.22147060574129,697.7148965841692
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}        
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.75831962449059,47.22193680722316,699.3966313386615
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}         
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.75795806947927,47.22237930068696,699.4728532634972
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}          
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.75746188871869,47.22311550596871,699.531294585785
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}           
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.7570252082737,47.22375787155819,702.9891295374679
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}            
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.75650821234877,47.22435731212169,708.2363432792893
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}             
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.75614894328383,47.22468522216391,711.7770870629811
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}              
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.75563384363756,47.22502160828961,717.4567489233203
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}               
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.75504790055818,47.22541565798387,725.3589382177149
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                
+</name><description>
+Descripcion del punto {}
+</description><Point><coordinates>
+14.75456565324578,47.22574906392531,733.4439262505227
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                 
+</name><description>
+Descripcion del punto {} 
+</description><Point><coordinates>
+14.75427784431771,47.22595521374969,738.4306001919368
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                  
+</name><description>
+Descripcion del punto {}  
+</description><Point><coordinates>
+14.75408337267046,47.22612600628795,741.8027827170433
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                   
+</name><description>
+Descripcion del punto {}   
+</description><Point><coordinates>
+14.7540708351233,47.22622161832582,743.8181838993993
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                    
+</name><description>
+Descripcion del punto {}    
+</description><Point><coordinates>
+14.75423741958155,47.22627811891304,745.0494870764895
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                     
+</name><description>
+Descripcion del punto {}     
+</description><Point><coordinates>
+14.75470308274696,47.22632152842017,745.2547163936144
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                      
+</name><description>
+Descripcion del punto {}      
+</description><Point><coordinates>
+14.75539772884678,47.22637442734772,745.3419320505252
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                       
+</name><description>
+Descripcion del punto {}       
+</description><Point><coordinates>
+14.7563522984994,47.22638819673666,742.9892592187645
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                        
+</name><description>
+Descripcion del punto {}        
+</description><Point><coordinates>
+14.75768871552438,47.22627862381289,738.0689135502183
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                         
+</name><description>
+Descripcion del punto {}         
+</description><Point><coordinates>
+14.75885951054442,47.2261338492013,734.1347014740337
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                          
+</name><description>
+Descripcion del punto {}          
+</description><Point><coordinates>
+14.76098307397907,47.22587151879647,727.4899163779316
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                           
+</name><description>
+Descripcion del punto {}           
+</description><Point><coordinates>
+14.762653387466,47.22577141603004,721.4995651442873
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                            
+</name><description>
+Descripcion del punto {}            
+</description><Point><coordinates>
+14.76413568926061,47.22572561704515,716.3342254163421
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                             
+</name><description>
+Descripcion del punto {}             
+</description><Point><coordinates>
+14.76442527277206,47.22569248241701,714.6817717291876
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                              
+</name><description>
+Descripcion del punto {}              
+</description><Point><coordinates>
+14.76459294805571,47.22561040751195,713.7873910478871
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                               
+</name><description>
+Descripcion del punto {}               
+</description><Point><coordinates>
+14.76465236210088,47.22548258160823,713.1755590446766
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                
+</name><description>
+Descripcion del punto {}                
+</description><Point><coordinates>
+14.76462328654671,47.22534676028909,712.6946402848587
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                 
+</name><description>
+Descripcion del punto {}                 
+</description><Point><coordinates>
+14.7644124430632,47.22513690405667,711.1425968372531
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                  
+</name><description>
+Descripcion del punto {}                  
+</description><Point><coordinates>
+14.76396505614977,47.22478501604704,708.6721092080622
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                   
+</name><description>
+Descripcion del punto {}                   
+</description><Point><coordinates>
+14.76339098127197,47.22453436324,706.7095531616143
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                    
+</name><description>
+Descripcion del punto {}                    
+</description><Point><coordinates>
+14.76284123047163,47.22438882738349,706.5003104247386
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                     
+</name><description>
+Descripcion del punto {}                     
+</description><Point><coordinates>
+14.76191489236804,47.22436173223137,708.0452548271652
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                      
+</name><description>
+Descripcion del punto {}                      
+</description><Point><coordinates>
+14.76111452939942,47.22444842373023,708.5132398499486
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                       
+</name><description>
+Descripcion del punto {}                       
+</description><Point><coordinates>
+14.76036237133257,47.22454098549296,709.9264918192304
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                        
+</name><description>
+Descripcion del punto {}                        
+</description><Point><coordinates>
+14.75972440440675,47.22459224656793,710.6868959180813
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                         
+</name><description>
+Descripcion del punto {}                         
+</description><Point><coordinates>
+14.75942264056505,47.22456653636208,710.2748377239116
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                          
+</name><description>
+Descripcion del punto {}                          
+</description><Point><coordinates>
+14.7590308529501,47.22445070398735,710.2989112498097
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                           
+</name><description>
+Descripcion del punto {}                           
+</description><Point><coordinates>
+14.75878983144029,47.22427820150549,709.8080480224388
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                            
+</name><description>
+Descripcion del punto {}                            
+</description><Point><coordinates>
+14.75864520284297,47.22407375382048,708.2320058979819
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                             
+</name><description>
+Descripcion del punto {}                             
+</description><Point><coordinates>
+14.75860450714138,47.22382386649108,705.693677813176
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                              
+</name><description>
+Descripcion del punto {}                              
+</description><Point><coordinates>
+14.75874574795277,47.22352826434447,701.2452528677959
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                               
+</name><description>
+Descripcion del punto {}                               
+</description><Point><coordinates>
+14.75900741932934,47.22321667089632,698.6154475359745
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                
+</name><description>
+Descripcion del punto {}                                
+</description><Point><coordinates>
+14.75965612183905,47.22242744615026,692.6133866067981
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                 
+</name><description>
+Descripcion del punto {}                                 
+</description><Point><coordinates>
+14.75986323619733,47.22224703261714,691.0867557856061
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                  
+</name><description>
+Descripcion del punto {}                                  
+</description><Point><coordinates>
+14.76020207757021,47.22211541706096,690.3613561909253
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                   
+</name><description>
+Descripcion del punto {}                                   
+</description><Point><coordinates>
+14.7605453107355,47.22205275274047,689.6932814101133
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                    
+</name><description>
+Descripcion del punto {}                                    
+</description><Point><coordinates>
+14.76119316567486,47.22218162367544,689.5708465407716
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                     
+</name><description>
+Descripcion del punto {}                                     
+</description><Point><coordinates>
+14.76154943944962,47.22249287367362,690.5059995207898
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                      
+</name><description>
+Descripcion del punto {}                                      
+</description><Point><coordinates>
+14.76197777785376,47.22276342104102,692.9811972006037
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                       
+</name><description>
+Descripcion del punto {}                                       
+</description><Point><coordinates>
+14.76248281836585,47.22297877128173,693.2829599190002
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                        
+</name><description>
+Descripcion del punto {}                                        
+</description><Point><coordinates>
+14.76301631896024,47.22310113085329,692.8636532135603
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                         
+</name><description>
+Descripcion del punto {}                                         
+</description><Point><coordinates>
+14.76413485494493,47.22313068664047,694.74835740841
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                          
+</name><description>
+Descripcion del punto {}                                          
+</description><Point><coordinates>
+14.76607806019684,47.22315351756058,700.5028281748615
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                           
+</name><description>
+Descripcion del punto {}                                           
+</description><Point><coordinates>
+14.7685153954276,47.22320587580847,700.5118616017726
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                            
+</name><description>
+Descripcion del punto {}                                            
+</description><Point><coordinates>
+14.76933656015918,47.22319053507445,698.0541905993631
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                             
+</name><description>
+Descripcion del punto {}                                             
+</description><Point><coordinates>
+14.76965952058955,47.22309101947234,696.4395599561893
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                              
+</name><description>
+Descripcion del punto {}                                              
+</description><Point><coordinates>
+14.76991445272647,47.2229416861062,696.2980047542659
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                               
+</name><description>
+Descripcion del punto {}                                               
+</description><Point><coordinates>
+14.77008354151662,47.22272926986823,694.9025360414125
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                                
+</name><description>
+Descripcion del punto {}                                                
+</description><Point><coordinates>
+14.77021573209818,47.22237575378536,693.1144297657039
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                                 
+</name><description>
+Descripcion del punto {}                                                 
+</description><Point><coordinates>
+14.77034663375616,47.22204574249728,689.8064582912571
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                                  
+</name><description>
+Descripcion del punto {}                                                  
+</description><Point><coordinates>
+14.77062372019953,47.22147500386853,685.2860222422443
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                                   
+</name><description>
+Descripcion del punto {}                                                   
+</description><Point><coordinates>
+14.7705969814379,47.22135099799549,684.1834478735635
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                                    
+</name><description>
+Descripcion del punto {}                                                    
+</description><Point><coordinates>
+14.77039407722821,47.22120121179653,681.7924188140114
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                                     
+</name><description>
+Descripcion del punto {}                                                     
+</description><Point><coordinates>
+14.76993175706791,47.22098598646065,681.2154669122057
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                                      
+</name><description>
+Descripcion del punto {}                                                      
+</description><Point><coordinates>
+14.76904225960936,47.22073560020061,679.9884045440353
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                                       
+</name><description>
+Descripcion del punto {}                                                       
+</description><Point><coordinates>
+14.76676709947725,47.22031738511957,677.8551986775706
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark><Placemark><name>
+Punto {}                                                                        
+</name><description>
+Descripcion del punto {}                                                        
+</description><Point><coordinates>
+14.7648758290223,47.21995773600347,678.4821055405084
+</coordinates><altitudeMode>
+absolute
+</altitudeMode></Point></Placemark></Document></kml>
