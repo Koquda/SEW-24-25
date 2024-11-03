@@ -75,6 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		h2Element.insertAdjacentElement('afterend', countryInfoSection);
 
 		// TODO: revisar esta parte, no tengo claro que me guste
+		// porque no deberia hacer fata el timeout
 		// Create a placeholder for coordinates
 		var coordinatesPlaceholder = document.createElement('section');
 		countryInfoSection.appendChild(coordinatesPlaceholder);
