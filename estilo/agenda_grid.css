@@ -1,0 +1,36 @@
+section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px; /* Adjust the gap between articles as needed */
+}
+
+article {
+  border: 2px solid black;
+  border-radius: 2em;
+  padding: 1em;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+  section {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  section {
+    grid-template-columns: 1fr;
+  }
+}
