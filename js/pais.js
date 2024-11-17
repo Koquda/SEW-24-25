@@ -53,7 +53,7 @@ class Country {
 class Meteo {
 
 	constructor() {
-		this.apikey = "2216326a0a05bce692b6e8900552e56a";
+		this.apikey = "<apiKey>";
 		this.latitud = "14.764861"
 		this.longitud = "47.219963"
 		this.tipo = "&mode=xml";
