@@ -47,6 +47,90 @@ class Country {
 			</ul>
 		`);
 	}
+
+}
+
+class Meteo {
+
+	constructor() {
+		this.apikey = "2216326a0a05bce692b6e8900552e56a";
+		this.latitud = "14.764861"
+		this.longitud = "47.219963"
+		this.tipo = "&mode=xml";
+		this.unidades = "&units=metric";
+		this.url = "https://api.openweathermap.org/data/2.5/forecast?lon=" + this.longitud + "&lat=" + this.latitud + this.tipo + this.unidades + "&APPID=" + this.apikey
+		this.correcto = "¡Todo correcto! XML recibido de <a href='http://openweathermap.org/'>OpenWeatherMap</a>"
+	}
+
+	getMeteo() {
+		$.ajax({
+			dataType: "xml",
+			url: this.url,
+			method: 'GET',
+			success: function(datos) {
+				// Select the forecast root element
+				var forecast = $('forecast', datos);
+				var forecastList = []
+
+				// Iterate over each time element within forecast
+				forecast.find('time').each(function() {
+					// Get the attributes of each time element
+					var day = $(this).attr('from').split('T')[0];
+					var maxTemp = $(this).find('temperature').attr('max');
+					var minTemp = $(this).find('temperature').attr('min');
+					var humidity = $(this).find('humidity').attr('value');
+					var icon = "https://openweathermap.org/img/wn/" + $(this).find('symbol').attr('var') + "@2x.png"
+
+					// Check if there's already an element with the same day in the list
+					var existingForecast = forecastList.find(function(forecast) {
+						return forecast.day === day;
+					});
+
+					// If no existing forecast for this day, add it to the list
+					if (!existingForecast && forecastList.length < 5) {
+						let weather = new Forecast(day, maxTemp, minTemp, humidity, icon)
+						forecastList.push(weather);
+
+						const article = document.createElement('article')
+
+						const dayHeader = document.createElement('h3')
+						dayHeader.textContent = weather.day
+
+						const img = document.createElement('img')
+						img.src = weather.icon
+						img.alt = "Icono del tiempo"
+
+						const maxTempText = document.createElement('p')
+						maxTempText.textContent = "Temperatura máxima:" + weather.maxTemp
+						const minTempText = document.createElement('p')
+						minTempText.textContent = "Temperatura mínima:" + weather.minTemp
+						const humidityText = document.createElement('p')
+						humidityText.textContent = "Porcentaje de humedad:" + weather.humidity
+
+						article.append(dayHeader)
+						article.append(img)
+						article.append(maxTempText)
+						article.append(minTempText)
+						article.append(humidityText)
+						$('main').append(article)
+					}
+				})
+			},
+			error: function() {
+				console.log(this.url)
+			}
+		})
+	}
+}
+
+class Forecast {
+	constructor(day, maxTemp, minTemp, humidity, icon) {
+		this.day = day
+		this.maxTemp = maxTemp
+		this.minTemp = minTemp
+		this.humidity = humidity
+		this.icon = icon
+	}
 }
 
 var country = new Country("Austria", "Viena", "9,132 millones")
@@ -76,7 +160,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 		// TODO: revisar esta parte, no tengo claro que me guste
 		// porque no deberia hacer fata el timeout
-		// Create a placeholder for coordinates
 		var coordinatesPlaceholder = document.createElement('section');
 		countryInfoSection.appendChild(coordinatesPlaceholder);
 
@@ -95,5 +178,8 @@ document.addEventListener('DOMContentLoaded', function() {
 			document.write = oldWrite;
 		}, 0);
 	}
+
+	new Meteo().getMeteo()
+
 });
 

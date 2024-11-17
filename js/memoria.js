@@ -165,5 +165,5 @@ class Memoria {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-	var memoria = new Memoria();
+	new Memoria();
 });
